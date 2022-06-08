@@ -10,8 +10,8 @@ namespace ArraysAndLists
             //TODO:
 
             // Create an int Array and populate numbers 1-10
-            var numbers = new int[11];
-            for (int i = 1; i < numbers.Length; i++) { numbers[i] = i; }
+            var numbers = new int[10];
+            for (int i = 0; i < numbers.Length; i++) { numbers[i] = i+1; }
 
             /* Create two Lists of type int.
              * Name one List "evens"
